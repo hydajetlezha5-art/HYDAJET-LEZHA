@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-cinzel: 'Cinzel', serif;
+    --font-serif: 'Source Serif 4', serif;
+    --font-sans: 'Plus Jakarta Sans', sans-serif;
+    --color-gold-light: #F7E7CE;
+    --color-gold: #D4AF37;
+    --color-gold-dark: #996515;
+    --color-gold-burnished: #AA7A1E;
+    --color-baby-blue-light: #F0F9FF;
+    --color-baby-blue: #BAE6FD;
+    --color-baby-blue-dark: #0284C7;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    color: #0f172a;
+    background-color: #f0f9ff;
+    scroll-behavior: smooth;
+  }
+
+  h1, h2, h3, .font-heading {
+    letter-spacing: -0.015em;
+  }
+}
+
+.font-display {
+  font-family: var(--font-cinzel), serif;
+}
+
+.font-editorial {
+  font-family: var(--font-serif), serif;
+}
+
+/* Authentic Metallic Gold Styles */
+.bg-gold-gradient {
+  background: linear-gradient(135deg, #E2C275 0%, #FAF0CD 35%, #C59B27 70%, #DFBA53 100%);
+}
+
+.bg-gold-subtle {
+  background: linear-gradient(135deg, #FFFDF5 0%, #FBF6E2 100%);
+}
+
+.text-gold-gradient {
+  background: linear-gradient(135deg, #8E6516 0%, #C99A2C 50%, #7A530C 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.border-gold {
+  border-color: #D4AF37;
+}
+
+.border-gold-subtle {
+  border-color: rgba(212, 175, 55, 0.4);
+}
+
+.shadow-gold-glow {
+  box-shadow: 0 4px 20px rgba(212, 175, 55, 0.25);
+}
+
+.shadow-baby-glow {
+  box-shadow: 0 4px 25px rgba(56, 189, 248, 0.2);
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f0f9ff;
+}
+::-webkit-scrollbar-thumb {
+  background: #bae6fd;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #7dd3fc;
+}
+

@@ -1,0 +1,6 @@
+{
+  "name": "Gjimnazi “Hydajet Lezha”",
+  "description": "Portali zyrtar dhe platforma akademike e Gjimnazit “Hydajet Lezha”, Lezhë — Dituria • Përkushtimi • E ardhmja.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
